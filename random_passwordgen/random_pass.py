@@ -50,9 +50,9 @@ pyperclip.copy(word)
 #print the result
 print ("Random password of length %s is: \n" % length)
 
-print('******')
+print('*' * length)
 print(word)
-print('******')
+print('*' * length)
 
 print ("\nIt contains",lower,"lowercase,",upper,"uppercase,",number,"numbers and",symbol,"symbol_characters")
 print (length,"total length")
